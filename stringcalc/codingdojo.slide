@@ -13,31 +13,47 @@ Przemyslaw Koziel
 - We are here to learn
 - Focus on doing it right
 - Collaborative environment
-- safe place outside work
+- Safe place outside work
 
 * Dojo Structure
 
 - Introduction : *15'*
-- Coding : *30'* (5 min / person).
+- Coding : *30'* (5 min / person)(randori).
 - Break
-- Coding : *30'*
+- Coding : *30'(pair programming)*
 - Retrospective : *15'*
 - *Total* : more or less 2h
 
-* TDD Skills
+* What is your level of TDD?
 
-- Driving development with tests
-- Designing Test Cases
-- Designing Clean Code
-- Refactoring Safely
+- It is a some kind of sorcery
+- I had contact with it but still don't trust it
+- I am comfortable with it (using at work)
+- I did TDD with Kent Beck
 
-* TDD should be
+* TDD, what is it?
 
-- Add a test
-- See it fail
-- Add code to make all tests pass
-- Refactor
-- Repeat
+- It is not about testing first(but it brings those benefits)
+- It is about design(officially yes)
+- Work flow?
+
+* The Three Laws of TDD
+
+- You must write a failing test before you write any production code.
+- You must not write more of a test than is sufficient to fail, or fail to compile.
+- You must not write more production code than is sufficient to make the currently failing test pass.
+
+* Red-Green-Refactor
+
+- Create a unit tests that fails
+- Write production code that makes that test pass
+- Clean up the mess you just made.
+
+* AAA
+
+-Arrange (Given)
+-Act (When)
+-Assert (Then)
 
 * Today kata - String Calculator
 
