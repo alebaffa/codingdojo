@@ -1,0 +1,63 @@
+Coding Dojo
+Software Craftsmanship Community
+29 Oct 2015
+Tags: tdd coding dojo scc
+
+Alessandro Baffa
+Christian Celeen
+Przemyslaw Koziel
+
+ 
+* Coding Dojo Mindset
+ 
+- We are here to learn
+- Focus on doing it right
+- Collaborative environment
+- safe place outside work
+
+* Dojo Structure
+
+- Introduction : *15'*
+- Coding : *30'* (5 min / person).
+- Break
+- Coding : *30'*
+- Retrospective : *15'*
+- *Total* : more or less 2h
+
+* TDD Skills
+
+- Driving development with tests
+- Designing Test Cases
+- Designing Clean Code
+- Refactoring Safely
+
+* TDD should be
+
+- Add a test
+- See it fail
+- Add code to make all tests pass
+- Refactor
+- Repeat
+
+* Today kata - String Calculator
+
+.image ./calculator.jpg
+
+* Task 1
+
+- Create a String calculator (class) with a method *Add* that accepts a string and returns a number.
+	int Add(string numbers)
+- *Start* *simple* : an _empty_ _string_, then _one_ and then _two_ numbers
+- *Refactor* after each passing test
+
+* Task 2
+- Allow the Add method to handle an unknown amount of numbers
+	int Add(string numbers...)
+
+* Task 3
+- Allow the Add method to handle new lines between numbers (instead of commas)
+	OK: "1\n2,3 = 6"
+	KO: "1,\n"
+
+* Other tasks are printed
+.image ./logo.jpg  500 500
