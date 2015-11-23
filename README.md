@@ -5,4 +5,4 @@ Repository of the code katas we made with the Software Craftsmanship Meetup in S
 Added [String Calculator kata](http://go-talks.appspot.com/github.com/alebaffa/codingdojo/stringcalc/codingdojo.slide).
 
 ### 24NOV2015
-Added Prime Factors
+Added [Prime Factors](https://youtu.be/NpwIo7oQqaU)
