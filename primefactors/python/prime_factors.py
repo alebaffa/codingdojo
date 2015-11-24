@@ -1,5 +1,3 @@
-import math
-
 def compute(number):
     result = []
     if (1 < number):
